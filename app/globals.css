@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .sectionGlassBackground {
+    @apply min-h-[100px] bg-[#ffffff]/10 rounded-[20px] backdrop-blur-[20px] border border-white p-[20px] mb-[30px] shadow-lg/10;
+  }
 }
