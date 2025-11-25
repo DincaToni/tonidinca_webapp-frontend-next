@@ -1,6 +1,9 @@
-let DefaultButton = ({ children }: { children: any }) => {
-  //remember to remove the any mf
-  return <>{children}</>;
+let DefaultButton = ({ children }: { children: string }) => {
+  return (
+    <>
+      <button className="languageSelectorButton">{children}</button>
+    </>
+  );
 };
 
 export default DefaultButton;

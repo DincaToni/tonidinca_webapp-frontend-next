@@ -12,4 +12,8 @@
   .sectionGlassBackground {
     @apply min-h-[100px] bg-[#ffffff]/10 rounded-[20px] backdrop-blur-[20px] border border-white p-[20px] mb-[30px] shadow-lg/10;
   }
+
+  .languageSelectorButton {
+    @apply bg-transparent px-[25px] py-[10px] cursor-pointer rounded-[50px] text-white transition-all duration-300 hover:bg-white/20 active:bg-white active:text-[#667eea];
+  }
 }
