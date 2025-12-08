@@ -1,4 +1,5 @@
 import LanguageSelector from "../molecules/languageSelector";
+import Title from "../atoms/title";
 
 let Hero = () => {
   return (
@@ -8,7 +9,9 @@ let Hero = () => {
           <div>Logo</div>
           <LanguageSelector />
         </div>
-        <div>FullStack Developer</div>
+        <div>
+          <Title type="heroTitle">FullStack Developer</Title>
+        </div>
         <div>Hero Description</div>
       </div>
     </div>
