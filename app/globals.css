@@ -20,4 +20,8 @@
   .heroTitle {
     @apply text-white text-[72px] font-extrabold mb-[20px] leading-[1.1];
   }
+
+  .sectionTitle {
+    @apply text-[36px] text-white font-bold mb-[30px];
+  }
 }
