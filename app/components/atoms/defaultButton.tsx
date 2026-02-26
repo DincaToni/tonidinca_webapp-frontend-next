@@ -1,7 +1,17 @@
-let DefaultButton = ({ children }: { children: string }) => {
+let DefaultButton = ({
+  props,
+  children,
+}: {
+  props?: {
+    handleClick: any;
+  };
+  children: string;
+}) => {
   return (
     <>
-      <button className="languageSelectorButton">{children}</button>
+      <button className="languageSelectorButton" onClick={props?.handleClick}>
+        {children}
+      </button>
     </>
   );
 };
