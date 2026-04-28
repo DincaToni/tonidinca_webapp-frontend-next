@@ -3,7 +3,7 @@ import Timeline from "../molecules/timeline";
 
 let Experience = () => {
   return (
-    <div className="sectionGlassBackground">
+    <div data-testid="experience" className="sectionGlassBackground">
       <Title type="sectionTitle"> Experience</Title>
       <Timeline
         timelineItems={[

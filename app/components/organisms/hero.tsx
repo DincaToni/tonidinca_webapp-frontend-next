@@ -4,7 +4,7 @@ import DescriptiveHeroText from "../atoms/descriptiveHeroText";
 
 let Hero = () => {
   return (
-    <div className="sectionGlassBackground">
+    <div data-testid="hero" className="sectionGlassBackground">
       <div className="flex flex-row justify-between w-full">
         <div>Logo</div>
         <LanguageSelector />

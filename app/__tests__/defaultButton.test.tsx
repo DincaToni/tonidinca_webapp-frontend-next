@@ -1,6 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import DefaultButton from "../components/atoms/defaultButton";
-import { options } from "joi";
 
 describe("Button Component", () => {
   test("renders button with text", () => {
@@ -24,7 +23,5 @@ describe("Button Component", () => {
       expect(handleClick).toHaveBeenCalled;
       expect(handleClick).toHaveBeenCalledTimes(1);
   });
-  test("Shows loading state", () => {});
-  test("disables when disabled prop is true", () => {});
-  test("renders with icon if there is icon", () => {});
+  
 });
