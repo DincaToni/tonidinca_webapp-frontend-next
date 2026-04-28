@@ -7,7 +7,7 @@ let Hero = () => {
     <div data-testid="hero" className="sectionGlassBackground">
       <div className="flex flex-row justify-between w-full">
         <div>Logo</div>
-        <LanguageSelector />
+        <LanguageSelector languages={["ENG","DE","RO"]}></LanguageSelector>{/*Modify this hardcoded bs*/}
       </div>
       <div className="flex flex-col items-center py-[60px]">
         <div>

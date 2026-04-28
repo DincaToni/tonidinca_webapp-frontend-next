@@ -10,12 +10,12 @@ let Experience = () => {
           {
             title: "dev",
             period: [2015, "Present"],
-            description: ["lorem ipsum"],
+            description: "lorem ipsum",
           }, //for development purposes
           {
             title: "dev again",
             period: [2013, 2015],
-            description: ["lorem ipsum dolor"],
+            description: "lorem ipsum dolor",
           },
         ]}
       ></Timeline>

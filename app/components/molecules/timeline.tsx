@@ -1,9 +1,9 @@
-import TimelineItem from "./timelineItem";
+import TimelineItem from "../atoms/timelineItem";
 
 type timelineItemsType = {
   title: string;
   period: [number, number | "Present"];
-  description: string[];
+  description: string;
 };
 
 //add verification for period (years should not be lower than present - 100 or in the future) (joi)
