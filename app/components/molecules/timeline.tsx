@@ -16,7 +16,7 @@ type timelineItemsType = {
 let Timeline = ({ timelineItems }: { timelineItems: timelineItemsType[] }) => {
   return (
     <>
-      <div className="pl-[40px] relative before:absolute before:content-[''] before:left-0 before:top-0 before:bottom-0 before:w-[2px] before:bg-linear-to-b before:from-white before:to-transparent">
+      <div data-testid="timeline" className="pl-[40px] relative before:absolute before:content-[''] before:left-0 before:top-0 before:bottom-0 before:w-[2px] before:bg-linear-to-b before:from-white before:to-transparent">
         {timelineItems.map((item) => (
           <TimelineItem item={item}></TimelineItem>
         ))}
