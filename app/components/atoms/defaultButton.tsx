@@ -1,17 +1,18 @@
 let DefaultButton = ({
+  classes,
   onClick,
   disabled,
   children,
 }: {
-  
-    onClick?: any;
-    disabled?:boolean;
-  
+  classes?: string;
+  onClick?: any;
+  disabled?: boolean;
+
   children: string;
 }) => {
   return (
     <>
-      <button className="languageSelectorButton" onClick={onClick} disabled={disabled}>
+      <button className={classes} onClick={onClick} disabled={disabled}>
         {children}
       </button>
     </>

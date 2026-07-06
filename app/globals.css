@@ -17,6 +17,10 @@
     @apply bg-transparent px-[25px] py-[10px] cursor-pointer rounded-[50px] text-white transition-all duration-300 hover:bg-white/20 active:bg-white active:text-[#667eea];
   }
 
+  .activelanguageSelectorButton {
+    @apply bg-white px-[25px] py-[10px] cursor-pointer rounded-[50px] text-[#667eea] transition-all duration-300;
+  }
+
   .heroTitle {
     @apply text-white text-[72px] font-extrabold mb-[20px] leading-[1.1];
   }
@@ -24,4 +28,12 @@
   .sectionTitle {
     @apply text-[36px] text-white font-bold mb-[30px];
   }
+
+  /*.cardBase {
+    @apply bg-white/20 cursor-pointer rounded-[15px] text-white font-[600] ransition-all duration-300;
+  }
+
+  .techStackCard {
+    @apply p-[25px] text-center hover:bg-white/30 translate-y-[5px] shadow-[0 10px 30px] shadow-black/20;
+  }*/
 }
